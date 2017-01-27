@@ -36,3 +36,4 @@ while (notDone()) {
 
 
 #####G 3:
+ I would like to program an automatic formal proof solver. This would also have a front end interface to help in the proving of the validity of logic arguments. This would be used by future students of RPI Logc courses. The intent is to give them a program that will help them visulize a descision procedure as well as having some capability to check their work. A MIT license would allow future students to improve on my work in furture semestes.
