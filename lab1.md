@@ -11,10 +11,10 @@ Well, I think it is absurd that the RIAA claimed that he had caused damages. Esp
 ![man tree] (grep tree.png)
 
 #####E 2:
-
+![RegEx7] (grep RegEx#7.png)
 
 #####E 3:
-
+![RegExBeg] (grep RegExBeg.png)
 
 #####F 2:
 
