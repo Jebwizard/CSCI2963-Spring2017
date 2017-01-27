@@ -17,6 +17,22 @@ Well, I think it is absurd that the RIAA claimed that he had caused damages. Esp
 ![RegExBeg] (grep RegExBeg.PNG)
 
 #####F 2:
+while (notDone()) {
+  if (isPathLeft()) {
+    turnLeft();
+  } else {
+    if (isPathForward()) {
+    } else {
+      if (isPathRight()) {
+        turnRight();
+      } else {
+        turnLeft();
+        turnLeft();
+      }
+    }
+  }
+  moveForward();
+}
 
 
 #####G 3:
