@@ -24,11 +24,11 @@
   MIT also requires that anyone who tries to use my code for their final project have to admit to using my work.
   
 #####Read these licenses GPL, LGPL and Apache/BSD and discuss which one will be better - for a developer, for a company and for the common good - write 5 to 10 sentences.
-  ######Developer:
+  #####Developer:
     Apache - Only minimal restrictions that allows others to use the works of the developer
-  ######Company:
+  #####Company:
     GNU GPL - This allows others to use their code, but requires them to acknowledge that the company orignionally produce the product.
-  ######Common Good:
+  #####Common Good:
      LGPL - This allows for complete freedom to modify and use, and only requires acknoledgement of the source when the code is use in
      a larger project.
   
@@ -37,15 +37,16 @@
     
 #####Write five sentences about choosing a project to work on in this course, who will be users/customers of the project, 
   and what license will you choose.
+    I would like to program an automatic formal proof solver. This would also have a front end interface to help in the proving of the validity of logic arguments. This would be used by future students of RPI Logc courses. The intent is to give them a program that will help them visulize a descision procedure as well as having some capability to check their work. A MIT license would allow future students to improve on my work in furture semestes.
 
 #####Take 5 projects from Observatory or past RCOS Projects and create a table for which project has which license.
 
 Website | License Present | License
 ---------|:----------|:-------
 EXAMPLE: https://github.com/rcos/Observatory | Yes | Two Clause BSD License https://en.wikipedia.org/wiki/ISC_license
-website | YN | License
-website | YN | License
-site | YN | License
-website | YN | License
-website | YN | License
+https://github.com/rcos/VendingMachine | Yes | GNU GPL version 2
+https://github.com/rcos/Stupify | Yes | Apache License version 2
+https://github.com/rcos/autourp | No | No License
+https://github.com/massgo/league | Yes | MIT License
+https://github.com/g33kidd/bracket | Yes | MIT License
 
