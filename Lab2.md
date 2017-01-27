@@ -24,16 +24,18 @@
   MIT also requires that anyone who tries to use my code for their final project have to admit to using my work.
   
 #####Read these licenses GPL, LGPL and Apache/BSD and discuss which one will be better - for a developer, for a company and for the common good - write 5 to 10 sentences.
-  #####Developer:
+  #####Develope
     Apache - Only minimal restrictions that allows others to use the works of the developer
+    
   #####Company:
     GNU GPL - This allows others to use their code, but requires them to acknowledge that the company orignionally produce the product.
+    
   #####Common Good:
      LGPL - This allows for complete freedom to modify and use, and only requires acknoledgement of the source when the code is use in
      a larger project.
   
-  #####Create a repository and choose a license.
-    Added a MIT License to my CSCI2963-Spring2017 Repo
+#####Create a repository and choose a license.
+  Added a MIT License to my CSCI2963-Spring2017 Repo
     
 #####Write five sentences about choosing a project to work on in this course, who will be users/customers of the project, 
   and what license will you choose.
