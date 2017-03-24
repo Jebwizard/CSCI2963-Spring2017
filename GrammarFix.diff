@@ -1,0 +1,22 @@
+Index: ral.4
+===================================================================
+--- ral.4	(revision 315913)
++++ ral.4	(working copy)
+@@ -45,7 +45,7 @@
+ RT2501, RT2600, RT2700, RT2800, RT3090 and RT3900E chipsets.
+ .Pp
+ The RT2500 chipset is the first generation of 802.11b/g adapters from Ralink.
+-It consists of two integrated chips, an RT2560 MAC/BBP and an RT2525 radio
++It consists of two integrated chips, a RT2560 MAC/BBP and a RT2525 radio
+ transceiver.
+ .Pp
+ The RT2501 chipset is the second generation of 802.11a/b/g adapters from
+@@ -298,7 +298,5 @@
+ .Pp
+ Some PCI
+ .Nm
+-adapters seem to strictly require a system supporting PCI 2.2 or greater and
+-will likely not work in systems based on older revisions of the PCI
+-specification.
++ral adapters strictly require a system that support PCI 2.2 or greater. The adapter will not work in systems based on older revisions of the PCI specification.
+ Check the board's PCI version before purchasing the card.
