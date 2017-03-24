@@ -20,3 +20,7 @@ ral(4) page. Last Paragraph in Cavats
   
 Bug Link:
 https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=218070
+
+
+Having good documentation allows for easy use. The user is not confused with unclear words or inconsistent wording. FreeBSD has great documentation so it would be easy to join this project. They just have more than a few grammar errors!
+
