@@ -1,0 +1,70 @@
+---
+title: "Lab7"
+author: "Joel Bassett - Jebwizard"
+date: "April 21, 2017"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
+1 and 2 - Reading
+
+3 - Implement association rules
+```{r}
+admissions <- read.csv("C:/Users/bassej4/Downloads/binary.csv")
+
+head(admissions)
+
+admissions[,names(admissions)] <- lapply(admissions[,names(admissions)] , factor)
+
+
+library(arules)
+print("apriori with defaults")
+rules.all <- apriori(admissions)
+rules.all
+
+library(arulesViz)
+plot(rules.all)
+#plot(rules.all, method = "grouped")
+```
+
+
+4 - 
+```{r}
+elect <- read.csv("C:/Users/bassej4/Documents/RPI Classes/OpenSource/datalab7/elect.txt")
+
+str(elect)
+head(elect)
+tail(elect)
+attributes(elect)
+
+summary(elect)
+
+var(elect$BushPct)
+var(elect$KerryPct)
+
+hist(elect$BushPct)
+hist(elect$KerryPct)
+
+plot(density(elect$BushPct))
+plot(density(elect$KerryPct))
+
+with(elect, plot(elect$BushPct, elect$KerryPct, col = elect$TotalVote))
+
+pairs(elect)
+
+```
+
+```{r}
+topmovies <- read.csv("C:/Users/bassej4/Documents/RPI Classes/OpenSource/datalab7/topmovies.txt")
+
+str(topmovies)
+head(topmovies)
+tail(topmovies)
+
+summary(topmovies)
+
+with(topmovies, plot(topmovies$box, topmovies$year, col = topmovies$rank))
+
+pairs(topmovies)
+```
